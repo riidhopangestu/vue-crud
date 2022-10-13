@@ -30,6 +30,11 @@ const routes = [
     path: "/add",
     name: "add",
     component: () => import('../components/AddUser.vue')
+  },
+  {
+    path: "/usertable",
+    name: "users-table",
+    component: () => import('../components/UsersTableList.vue')
   }
 ]
 
